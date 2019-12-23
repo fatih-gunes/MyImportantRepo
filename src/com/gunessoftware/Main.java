@@ -12,18 +12,18 @@ public class Main {
         System.out.println(hasPairWithSum(arr, sum));
         System.out.println(hasPairWithSum2(arr, sum));
 
-    }
+                }
 
-    // given an array of integers and a number "sum",
-    // find whether there is a pair of numbers that their total is equal to number "sum".
+                // given an array of integers and a number "sum",
+                // find whether there is a pair of numbers that their total is equal to number "sum".
 
-    // brute force solution
-    // naive solution
-    private static boolean hasPairWithSum (int[] arr, int sum) {
-        for(int i = 0; i < arr.length; i++) {
-            for(int j = i+1; j < arr.length; j++) {
-                if (arr[i] + arr[j] == sum) {
-                    return true;
+                // brute force solution
+                // naive solution
+                private static boolean hasPairWithSum (int[] arr, int sum) {
+                    for(int i = 0; i < arr.length; i++) {
+                        for(int j = i+1; j < arr.length; j++) {
+                            if (arr[i] + arr[j] == sum) {
+                                return true;
                 }
             }
         }
